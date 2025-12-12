@@ -1,0 +1,30 @@
+{
+  "name": "solarized-done-right",
+  "author": {
+    "email": "duydang2412@gmail.com",
+    "name": "Duy Dang",
+    "url": "https://github.com/duydang2311"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duydang2311/solarized-done-right.git"
+  },
+  "displayName": "solarized-done-right",
+  "description": "An effort to make Solarized Dark theme feel right in VS Code. Same color palette, slightly more contrast.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Done Right (dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Solarized Done Right (dark)-color-theme.json"
+      }
+    ]
+  }
+}
